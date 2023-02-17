@@ -36,8 +36,8 @@ a:hover {
 /* Header */
 
 header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #000000;
+  background-color: black;
+  border-bottom: 3px solid white;
   height: 80px;
   display: flex;
   align-items: center;
@@ -63,6 +63,7 @@ nav ul {
 
 nav li {
   margin-right: 20px;
+  align-self: center;
 }
 
 nav a {
@@ -72,7 +73,7 @@ nav a {
   letter-spacing: 1px;
   padding: 10px;
   transition: all 0.3s ease;
-  color: #333;
+  color: white;
 }
 
 nav a:hover {
@@ -133,6 +134,7 @@ body {
   background: linear-gradient(135deg, #f7e8c2, #f7c2e8, #c2f7e8, #e8f7c2);
   background-size: 600% 600%;
   animation: gradient 20s ease infinite;
+  height: 9999px;
 }
 
 @keyframes gradient {
@@ -152,37 +154,172 @@ h1 {
   font-weight: 400;
   color: #000000;
   text-align: center;
-  margin-top: 100px;
   text-shadow: 2px 2px 5px rgba}
+.grid{
+  display: grid;grid-template-rows: 300px 300px ;grid-template-columns:  300px 300px 300px;
+  gap: 170px;
+}
+.grid img{
 
+  height: 100%;width: 100%;
+}
+.container-grid{
+  display: flex;justify-content: center;
+}
+.productnaam{
+  font-size: 25px;
+  padding: 10px 0 5px 0;
+  margin: 0;
+  text-align: left;
+}
+.productbeschrijving{
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.text{
+  display: flex;
+  justify-content: space-between;
+}
+.prijs{
+  font-size: 25px;
+  padding: 0 5px 0 5px;
+  margin: 10px 0 0 0 ;
+}
+.title-container{
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  height: 80px;
+}
+.title{
+  display: flex;
+}
 	</style>
 
 </head>
-<body>
-    <h1>Dit is onze winkel</h1>
-    
-   
-</body>
+
 
 </html>
 <html>
 <head>
-	
+  <body style="padding-top: 100px;">
+    <h1>Dit is onze winkel</h1>
+  </body>
+	<div class="container-grid">
+    <div class="grid">
+      <div class="item2">
+        <img src="Img/lol6.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Lakers Shirt</h1>
+            <p class="productbeschrijving">Dit is een limited edition shirt die niet meer verkrijgbaar is</p>
+          </div>
+          <p class="prijs">€110,95</p>
+        </div>
+      </div>
+      <div class="item2">
+        <img src="Img/lol2.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Lakers Pants</h1>
+            <p class="productbeschrijving">Dit is een limited edition broek die niet meer verkrijgbaar is</p>
+          </div>
+          <p class="prijs">€85,99</p>
+        </div>
+      </div>
+      <div class="item3">
+        <img src="Img/lol3.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Nike PSG pak</h1>
+            <p class="productbeschrijving">Dit pak is gemaakt van goede kwaliteiten</p>
+          </div>
+          <p class="prijs">€209,35</p>
+        </div>
+      </div>
+      <div class="item7">
+        <img src="Img/lol8.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">3 Sportflessen</h1>
+            <p class="productbeschrijving">€11,00 per fles</p>
+          </div>
+          <p class="prijs">€32,99</p>
+        </div>
+      </div>
+      <div class="item5">
+        <img src="Img/lol5.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Tarmak Basketbal</h1>
+            <p class="productbeschrijving">Splinternieuwe basketbal met hoge kwaliteiten</p>
+          </div>
+          <p class="prijs">€35,99</p>
+        </div>
+      </div>
+      <div class="item6">
+        <img src="Img/lol1.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Adidas Voetbal</h1>
+            <p class="productbeschrijving">Een gloednieuwe bal met de beste kunsten</p>
+          </div>
+          <p class="prijs">€27,98</p>
+        </div>
+      </div>
+      <div class="item7">
+        <img src="Img/lol7.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Kicksen</h1>
+            <p class="productbeschrijving">Comfortabele kicksen </p>
+          </div>
+          <p class="prijs">€44,95 euro</p>
+        </div>
+      </div>
+      <div class="item7">
+        <img src="Img/lol4.webp" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Basketbal schoenen</h1>
+            <p class="productbeschrijving">Hoge kwaliteit Unisex schoenen </p>
+          </div>
+          <p class="prijs">€87,65</p>
+        </div>
+      </div>
+      <div class="item9">
+        <img src="Img/lol9.jpg" alt="">
+        <div class="text">
+          <div>
+            <h1 class="productnaam">Keeper handschoenen</h1>
+            <p class="productbeschrijving">Schitterende rode handschoenen speciaal voor keepers</p>
+          </div>
+          <p class="prijs">€21,85 </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </head>
 <body>
 	<header>
-	
 		<nav>
 			<ul>
-				<li><a href="index.html">Startpagina</a></li>
-				<li><a href="shop.html">Shop</a></li>
-				<li><a href="contact.html">Contact opnemen</a></li>
-				<li><a href="about.html">Over Ons</a></li>
-				
+        <div class="title-container">
+          <div class="title">
+            <li><a href="index.html">Startpagina</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact opnemen</a></li>
+            <li><a href="about.html">Over Ons</a></li>
+          </div>
+          <img src="Img/lol-logo" alt="">
+        </div>
+        
 			</ul>
+      
 		</nav>
 	</header>
-	
-	
 </body>
 </html>

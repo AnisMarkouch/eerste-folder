@@ -36,8 +36,8 @@ a:hover {
 /* Header */
 
 header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #000000;
+  background-color: black;
+  border-bottom: 3px solid white;
   height: 80px;
   display: flex;
   align-items: center;
@@ -72,7 +72,7 @@ nav a {
   letter-spacing: 1px;
   padding: 10px;
   transition: all 0.3s ease;
-  color: #333;
+  color: #ffffff;
 }
 
 nav a:hover {
@@ -154,6 +154,18 @@ h1 {
   text-align: center;
   margin-top: 100px;
   text-shadow: 2px 2px 5px rgba}
+  .container{
+  display: flex;align-items: center;justify-content: center;
+}.title-container{
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  height: 80px;
+}
+.title{
+  display: flex;
+}
+  
 
 	</style>
     
@@ -172,10 +184,16 @@ h1 {
 	
 		<nav>
 			<ul>
-				<li><a href="index.html">Startpagina</a></li>
-				<li><a href="shop.html">Shop</a></li>
-				<li><a href="contact.html">Contact opnemen</a></li>
-				<li><a href="about.html">Over Ons</a></li>
+        <div class="title-container">
+          <div class="title">
+            <li><a href="index.html">Startpagina</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact opnemen</a></li>
+            <li><a href="about.html">Over Ons</a></li>
+          </div>
+          <img src="Img/lol-logo" alt="">
+        </div>
+        
 			</ul>
 		</nav>
 	</header>
